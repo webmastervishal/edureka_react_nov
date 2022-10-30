@@ -1,0 +1,5 @@
+1. Download & Install Node js https://nodejs.org/en/
+2. Download & Install Vscode https://code.visualstudio.com/
+3. NPM repository https://www.npmjs.com/
+4. Create react app https://create-react-app.dev/
+
