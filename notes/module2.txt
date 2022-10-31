@@ -1,0 +1,33 @@
+Ecmascript: 
+https://www.w3schools.com/js/js_versions.asp
+
+Difference between es5 and es6: 
+
+1) Var, Let, Const keywords
+    - Global scope
+    - Functional scope
+    - Local scope
+    - var works well with global and functional scope while let works well with all of them
+2) arrow functions
+    - e.g () => {}
+    - arrow functions can have shorter syntaxes
+    - arrow function solves the problem of this keyword that normal function has
+3) template literals
+    - use backticks (``)
+    - e.g `Welcome ${name}`
+4) objects
+    - es5 uses Object.assign() to merge objects
+    - es6 uses spread operator (...) to merge objects 
+5) module import export
+
+
+React Fundamentals
+
+1) Componets - Class & Functional components
+2) State
+3) Props
+4) Event handling e.g button onClick Event
+5) Life cycle methods
+    - Mounting phase
+    - Updating phase
+    - Unmouting phase
