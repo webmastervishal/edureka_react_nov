@@ -1,0 +1,31 @@
+Module 3 Notes:
+
+1) Handling form fields
+    - onChange
+    - onSubmit events
+
+2) Navigation in React app
+    - Install react-router-dom package
+    - e.g npm i react-router-dom@5
+    - https://v5.reactrouter.com/web/guides/quick-start
+
+3) Create routes in react app
+    - Login page 
+        - form field events
+        - css styling
+            - inline 
+            - internal (using object)
+            - external (using css file)
+    - Dashboard page
+    - Profile page
+
+4) Hit login API 
+    - send email and password to login API
+    - save access token in the cookie using js-cookie package
+        - install js-cookie using this command "npm i js-cookie"
+    - redirect user to dashboard page after successfull login
+
+5) Create private routes
+    - create private route so as to restrict unauthorized access to the pages.
+
+Validator Pakcage : https://www.npmjs.com/package/validator

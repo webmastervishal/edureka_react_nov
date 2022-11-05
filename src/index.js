@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import Container from "./counter/Container";
+import FormElements from "./FormElements";
+import Login from "./pages/Login";
+import AppRouter from "./routes/AppRouter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Container />
+    <AppRouter />
   </React.StrictMode>
 );
 
