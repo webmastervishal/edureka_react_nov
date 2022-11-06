@@ -1,0 +1,21 @@
+Module 5 notes:
+
+1) Install redux and react-redux package
+    - npm i react-redux redux
+
+
+2) Create currency app
+    - Container component
+        - Input component
+        - List component
+            - List of Item Components
+
+3) Lifting state up & prop drilling
+4) Setting up redux
+    - create redux store
+    - connect store with the react app
+    - create reducers & actions
+    - connect component to redux store using mapStateToProps & mapDispatchToProps
+
+Redux devtools extention: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+https://github.com/zalmoxisus/redux-devtools-extension

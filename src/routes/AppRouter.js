@@ -5,14 +5,15 @@ import Login from "./../pages/Login";
 import Dashboard from "./../pages/Dashboard";
 import Profile from "./../pages/Profile";
 import NotFound from "../pages/NotFound";
+import PrivateRoute from "./PrivateRoute";
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
       <Switch>
         <Route path="/" component={Login} exact />
-        <Route path="/dashboard" component={Dashboard} />
-        <Route path="/profile" component={Profile} />
+        <PrivateRoute path="/dashboard" component={Dashboard} />
+        <PrivateRoute path="/profile" component={Profile} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

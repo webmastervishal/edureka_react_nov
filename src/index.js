@@ -5,11 +5,15 @@ import Container from "./counter/Container";
 import FormElements from "./FormElements";
 import Login from "./pages/Login";
 import AppRouter from "./routes/AppRouter";
+import store from "./store";
+import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppRouter />
+    <Provider store={store}>
+      <AppRouter />
+    </Provider>
   </React.StrictMode>
 );
 

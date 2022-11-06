@@ -3,14 +3,21 @@ import "./login.css";
 import Cookies from "js-cookie";
 
 class Login extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       email: "",
       password: "",
       error: "",
     };
+
+    const access_token = Cookies.get("token");
+    const isAuthenticated = !!access_token;
+
+    if (isAuthenticated) {
+      props.history.push("/dashboard");
+    }
   }
 
   handleEmail = (e) => {
