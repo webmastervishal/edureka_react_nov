@@ -1,0 +1,14 @@
+Module 5 notes:
+
+1) Redux Saga : https://redux-saga.js.org/
+
+2) Generator functions
+
+3) Worker Saga & Watcher Saga
+
+4) Using redux devtools compose https://github.com/reduxjs/redux-devtools/tree/main/extension#usage
+
+
+Extras: 
+https://reactjs.org/docs/optimizing-performance.html
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en

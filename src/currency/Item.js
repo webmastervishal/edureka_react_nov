@@ -1,7 +1,7 @@
 import React from "react";
 
 const Item = (props) => {
-  console.log("props", props);
+  // console.log("props", props);
   return (
     <div id="item">
       <p>
