@@ -1,0 +1,5 @@
+1) Problems with javascript classes
+2) useState
+3) useEffect
+4) useContext
+5) Custom Hooks

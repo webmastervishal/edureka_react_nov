@@ -8,6 +8,8 @@ const Layout = (props) => {
       <header>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/profile">Profile</Link>
+        <Link to="/counter">Counter</Link>
+        <Link to="/hooks">Hooks</Link>
       </header>
       <section>{props.children}</section>
       <footer>&copy; edureka 2022</footer>

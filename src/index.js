@@ -7,14 +7,17 @@ import Login from "./pages/Login";
 import AppRouter from "./routes/AppRouter";
 import store from "./store";
 import { Provider } from "react-redux";
+import { UserContextProvider } from "./context/UserContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <Provider store={store}>
+  // <React.StrictMode>
+  <Provider store={store}>
+    <UserContextProvider>
       <AppRouter />
-    </Provider>
-  </React.StrictMode>
+    </UserContextProvider>
+  </Provider>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

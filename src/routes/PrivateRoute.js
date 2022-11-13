@@ -6,7 +6,7 @@ const PrivateRoute = (props) => {
   const access_token = Cookies.get("token");
   const isAuthenticated = !!access_token;
 
-  console.log("isAuthenticated", isAuthenticated);
+  // console.log("isAuthenticated", isAuthenticated);
 
   //   props = {
   //     component: "",
