@@ -65,7 +65,7 @@ class Login extends React.Component {
 
   render() {
     const inputStyle = {
-      border: "1px solid #c7c7c7",
+      border: "1px solid #c7c7c9",
       width: "50%",
       padding: "10px",
       margin: "auto",
@@ -82,6 +82,7 @@ class Login extends React.Component {
             placeholder="Email"
             className="input-element"
             onChange={this.handleEmail}
+            value={this.state.email}
           />
           <input
             type="text"
@@ -89,6 +90,7 @@ class Login extends React.Component {
             placeholder="Password"
             className="input-element"
             onChange={this.handlePassword}
+            value={this.state.password}
           />
           <input
             type="submit"

@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import { UserContext } from "./../context/UserContext";
 
 function Counter() {
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(0);
   const [numbers, setNumbers] = useState([1, 2, 3, 4, 4]);
   const [show, setShow] = useState(true);
   const [currencies, setCurrencies] = useState([]);
@@ -67,11 +67,13 @@ function Counter() {
 
   return (
     <Layout>
-      <h1>Welcome : {data.user}</h1>
+      {/* <h1>Welcome : {data.user}</h1> */}
       {show && (
         <>
-          <h1>Count: {count}</h1>
-          <button onClick={() => setCount(count + 1)}>+</button>
+          <h1 id="counter">Count: {count}</h1>
+          <button id="increment" onClick={() => setCount(count + 1)}>
+            +
+          </button>
           <button onClick={() => setCount(count - 1)}>-</button>
         </>
       )}

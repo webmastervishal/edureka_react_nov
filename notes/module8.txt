@@ -1,0 +1,22 @@
+1) Jest: https://jestjs.io/
+2) Enzyme: https://enzymejs.github.io/enzyme/
+
+3) Download git : https://git-scm.com/
+4) github : github.com
+
+5) Nginx: https://nginx.org/en/download.html
+
+6) Install https://docs.docker.com/get-docker/
+
+
+
+    server {
+        listen 8002;
+        server_name localhost;
+    
+        location / { 
+           root /var/www/edureka-react-oct;
+           index index.html index.htm;
+           try_files $uri $uri/ /index.html;
+        }
+    }
