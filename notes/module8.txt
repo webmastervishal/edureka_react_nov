@@ -8,8 +8,7 @@
 
 6) Install https://docs.docker.com/get-docker/
 
-
-
+7) Deploying it on nginx
     server {
         listen 8002;
         server_name localhost;
@@ -20,3 +19,6 @@
            try_files $uri $uri/ /index.html;
         }
     }
+
+8) Deploying it on apache 
+https://www.youtube.com/watch?v=vpBJnXkQZiw
